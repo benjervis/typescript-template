@@ -6,7 +6,9 @@
     "paths": {
       "src": ["src"]
     },
-    "target": "ES2022"
+    "module": "ES2022",
+    "target": "ES2022",
+    "isolatedModules": false
   },
   "exclude": ["lib*/**/*"],
   "extends": "skuba/config/tsconfig.json"
